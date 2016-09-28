@@ -1,0 +1,19 @@
+{
+  "name": "learn-a-foreign-language-mobile",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An Android application to learn a foreign language",
+  "author": {
+    "name": "Romain Pellerin",
+    "email": "contact@romainpellerin.eu",
+    "url": "http://romainpellerin.eu/"
+  },
+  "homepage": "http://romainpellerin.eu/",
+  "scripts": {
+    "dev": "react-native run-android && adb reverse tcp:8081 tcp:8081 && react-native start"
+  },
+  "dependencies": {
+    "react-native": "^0.18.0-rc",
+    "react-native-modalbox": "^1.2.7"
+  }
+}
